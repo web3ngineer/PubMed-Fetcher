@@ -3,7 +3,7 @@ from unittest.mock import patch
 import pytest
 import requests
 from requests_mock import Mocker
-from fetcher import PubMedFetcher  # Adjust the import path
+from pubMed_fetcher.fetcher import PubMedFetcher  # Adjust the import path
 
 # Mock environment variables
 @pytest.fixture(autouse=True)
